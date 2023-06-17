@@ -13,7 +13,7 @@
     # Ejemplo:
     # cuadrado_entero(2.5)
 
-def cuadrado_entero(valor):
+def cuadradoEntero(valor):
      
     cuadrado = valor ** 2  # Calcula el cuadrado del valor
     entero = int(cuadrado)  # Convierte el cuadrado a entero usando la técnica de composición
@@ -21,6 +21,6 @@ def cuadrado_entero(valor):
     return entero
 
 # Ejemplo de uso
-valor_flotante = 2.5
-resultado = cuadrado_entero(valor_flotante)
-print(f"El cuadrado entero de {valor_flotante} es: {resultado}")
+valorFlotante = 2.5
+resultado = cuadradoEntero(valorFlotante)
+print(f"El cuadrado entero de {valorFlotante} es: {resultado}")
